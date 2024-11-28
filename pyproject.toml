@@ -24,7 +24,7 @@ classifiers=[
 [tool.poetry.dependencies]
 python = "^3.8"
 python-dotenv = "0.21.1"
-selenium = "4.9.1"
+selenium = "4.27.1"
 Pillow = "9.5.0"
 
 [tool.poetry.dev-dependencies]
