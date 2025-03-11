@@ -2,7 +2,7 @@ version: 2.1
 executors:
   my-executor:
     docker:
-      - image: cimg/python:3.11.5-browsers
+      - image: cimg/python:3.13.2-browsers
         environment:
           CHROME_BINARY_LOCATION: /usr/bin/google-chrome
           CHROME_DRIVER_LOCATION: /usr/local/bin/chromedriver
